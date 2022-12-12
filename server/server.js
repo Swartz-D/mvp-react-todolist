@@ -4,7 +4,7 @@ const {Client} = require('pg')
 const PORT = 5100;
 const app = express();
 
-const config = require('./config.js')[process.env.NODE_ENV||'dev']
+const config = require('./config.js')['production' || 'dev']
 
 const client = new Client({
   connectionString: config.connectionString
