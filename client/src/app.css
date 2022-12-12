@@ -1,0 +1,39 @@
+* {
+  background: rgb(32, 32, 32);
+  color: white;
+
+}
+
+body {
+ 
+}
+
+#root {
+  width: 75%;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.btn-container {
+  text-align: center;
+  margin: 1em;
+  border-bottom: 1px solid white;
+}
+
+.todo-item {
+  display: flex;
+  margin: 1em;
+  border-bottom: 1px solid white;
+}
+
+.list-container {
+
+}
