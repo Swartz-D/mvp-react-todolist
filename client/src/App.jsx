@@ -6,9 +6,9 @@ import './app.css'
 
 export const TodoContext = createContext()
 
-const ENV = 'dev'
+const ENV = 'production'
 
-export const ApiUrl = ENV == 'dev' ? 'http://localhost:5100' : ""
+export const ApiUrl = ENV == 'dev' ? 'http://localhost:5100' : 'https://todolist-client.onrender.com/'
 
 export default function App() {
   const [todos, setTodos] = useState([])
